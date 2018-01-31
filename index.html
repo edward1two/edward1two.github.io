@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
@@ -11,11 +12,35 @@
  
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
   <style>
-  body {
+ html,body{
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
+
+      height: 100%;
+  	  width: 100%;
+  	  margin: 0;
+
+     
   }
+
+
+
+      
+.headerlogo {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  height: 100%;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+
+
   h2 {
       font-size: 24px;
       text-transform: uppercase;
@@ -23,6 +48,14 @@
       font-weight: 600;
       margin-bottom: 30px;
   }
+
+  h1 {
+      font-size: 18px;      
+      color: #ffffff;
+      font-weight: 600;
+      margin-bottom: 30px;
+  }
+
   h4 {
       font-size: 19px;
       line-height: 1.375em;
@@ -59,6 +92,7 @@
       width: 160px;
       height: 120px;
       margin-bottom: 10px;
+
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
@@ -235,15 +269,15 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-       <a class="navbar-brand" href="#myPage">HOME</a>
+       <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-home"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">ABOUT ME</a></li>
         <li><a href="#services">WORK EXP</a></li>
         <li><a href="#portfolio">SKILLS</a></li>
-        <li><a href="#pricing">CERTIFICATION</a></li>
-        <li><a href="#contact">CONTACT ME</a></li>
+        <li><a href="#pricing">CERTs</a></li>
+        <!--li><a href="#contact">CONTACT ME</a></li-->
       </ul>
     </div>
   </div>
@@ -253,8 +287,12 @@
 
 
 
+
 </head>
 <body>
+
+
+
 
 <script>
 $(document).ready(function () {
@@ -303,16 +341,21 @@ $(document).ready(function () {
 });
 </script>
 
-<div id="particles-js">
+
+
+
+<div id="particles-js" class="headerlogo">
     <div class="hero-particles" id="particles-js"></div>
     <div class="hero-content">
     <br></br>
     <h2 id="name">Eduardo Alvela</h2>
-    <h2 id="solutions">&nbsp&nbsp Solutions Consultant</h2>
-    <p id="solutions1">&nbsp&nbsp&nbsp Netsuite</p>
-    <p id="solutions2">&nbsp&nbsp&nbsp Microsoft Dynamics AX</p>
-    <p id="solutions3">&nbsp&nbsp&nbsp xTuple</p>
-    </div>
+    <p id="solutions">&nbsp&nbsp Solutions Consultant</p>
+    <p id="solutions1">&nbsp&nbsp&nbsp&nbsp&nbsp Netsuite</p>
+    <p id="solutions2">&nbsp&nbsp&nbsp&nbsp&nbsp Microsoft Dynamics AX</p>
+    <p id="solutions3">&nbsp&nbsp&nbsp&nbsp&nbsp xTuple</p>
+ </div>
+
+
 
 <script type="text/javascript">
 	particlesJS("particles-js", {"particles": {
@@ -442,7 +485,7 @@ $(document).ready(function () {
     <div class="col-sm-8">
       <h2>About Me</h2><br>
       <h4>I'm Eduardo Alvela a Netsuite Solutions Consultant from Tech For Good Inc.</h4><br>
-      <p>Experienced Functional Consultant with a demonstrated history of working in the information technology and services industry. Skilled in PostgreSQL, SQL, Microsoft Office, Xamarin, and Lean Six Sigma. Strong information technology professional with a Bachelor’s Degree focused in Computer Science from Pamantasan ng Lungsod ng Maynila.</p>
+      <p>Experienced Functional Consultant with a demonstrated history of working in the information technology and services industry. Skilled in various ERP Solutions such as Netsuite, Microsoft Dynamics AX, and xTuple. Experienced in using and developing with PostgreSQL, mySQL, MS SQL, Visual Studio C# and Xamarin. Strong information technology professional with a Bachelor’s Degree focused in Computer Science from Pamantasan ng Lungsod ng Maynila.</p>
       <br><button class="btn btn-default btn-lg">See Linkedin Profile</button>
     </div>
     <div class="col-sm-4">
@@ -485,12 +528,13 @@ $(document).ready(function () {
       <p>Solutions Consultant (Netsuite)</p>
     </div>
     <div class="col-sm-4">
-      <img src="https://lh3.googleusercontent.com/RXDb2CXIXSZ0E08tgMghx7g-2ZnV0QzuNxCg2JTjRNOglAj-5VBj5nn66hNFN5MXQZNPdwFYXWZamv_CPcHuoagRPA8Sc5hZTNnJt1bviKJfMh4pG1KjfUXyJYlNzJ-vULx01OC64g" alt="gti" width="200" height="100"> 
+      <img src="https://lh3.googleusercontent.com/RXDb2CXIXSZ0E08tgMghx7g-2ZnV0QzuNxCg2JTjRNOglAj-5VBj5nn66hNFN5MXQZNPdwFYXWZamv_CPcHuoagRPA8Sc5hZTNnJt1bviKJfMh4pG1KjfUXyJYlNzJ-vULx01OC64g" alt="gti" width="200" height="80"> 
+      <br><br>
       <h4>Genie Technologies Inc.</h4>
       <p>Implementation Executive (Microsoft Dynamics AX) </p>
     </div>
     <div class="col-sm-4">
-       <img src="https://lh3.googleusercontent.com/pCZ51Bka7RRX-KJR0TdoaD8SxmdwvXbnmFZfbboOoF8OBzzvHCL65YEy0K3SLFitPukU1JOJ42C3HPlPTG6s35g5YhXgGrjo0f9TOtYOwC7fZlgGun2Q7GJIniqB3IWZwabbx5m_PA=s100-p-k" alt="OSSPH" width="250" height="100">  
+       <img src="https://lh3.googleusercontent.com/pCZ51Bka7RRX-KJR0TdoaD8SxmdwvXbnmFZfbboOoF8OBzzvHCL65YEy0K3SLFitPukU1JOJ42C3HPlPTG6s35g5YhXgGrjo0f9TOtYOwC7fZlgGun2Q7GJIniqB3IWZwabbx5m_PA=s100-p-k" alt="OSSPH" width="150" height="100">  
       <h4>Open Source Solutions Philippines Corporation</h4>
       <p>Solutions Consultant (xTuple)</p>
     </div>
@@ -498,7 +542,7 @@ $(document).ready(function () {
   <br><br>
   <div class="row slideanim">
     <div class="col-sm-4">
-       <img src="https://lh3.googleusercontent.com/Nthcnx82BmUECGd-o4Ei3S3-TIxma0q3mvurJHLFEqFvu3bFb7F1uPlDmefypBp22_oKZtcuLYpYWhNQtA6Ld-Ba_dAmlffavkFleMV6ZYDzzvuvPLQ9QH710il_V-CtUBGiz6wG4g=s200-p-k" alt="JSI" width="200" height="100"> 
+       <img src="https://lh3.googleusercontent.com/Nthcnx82BmUECGd-o4Ei3S3-TIxma0q3mvurJHLFEqFvu3bFb7F1uPlDmefypBp22_oKZtcuLYpYWhNQtA6Ld-Ba_dAmlffavkFleMV6ZYDzzvuvPLQ9QH710il_V-CtUBGiz6wG4g=s200-p-k" alt="JSI" width="150" height="100"> 
       <h4>Jupiter Systems Inc.</h4>
       <p>Implementation Officer (ERIC)</p>
     </div>
@@ -508,7 +552,8 @@ $(document).ready(function () {
       <p>Implementation Officer (EMS)</p>
     </div>
     <div class="col-sm-4">
-      <img src="https://lh3.googleusercontent.com/RzDA2KFbZqnIJaJGxIFSFLaKcnPGLyD2yGr-rp8e7kjPZ9AXV4m1KsFYkPfrdCDJahyuHsb555VIz0UFnd_H4A4dIFtmyEsyqTAs6U-m_kpKLW1oUprisZlJlhNfCZwpGNyLEWukGg=s200-p-k" alt="GIC" width="200" height="100"> 
+      <img src="https://lh3.googleusercontent.com/RzDA2KFbZqnIJaJGxIFSFLaKcnPGLyD2yGr-rp8e7kjPZ9AXV4m1KsFYkPfrdCDJahyuHsb555VIz0UFnd_H4A4dIFtmyEsyqTAs6U-m_kpKLW1oUprisZlJlhNfCZwpGNyLEWukGg=s200-p-k" alt="GIC" width="180" height="80"> 
+      <br><br>
       <h4>ANSI Information Systems</h4>
       <p>Helpdesk Officer (POS)</p>
     </div>
@@ -523,23 +568,25 @@ $(document).ready(function () {
  
   <div class="row text-center slideanim">
     <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="https://lh3.googleusercontent.com/lRAExhX4ruYoh1OA2nt6Z8JJWBtHAcmE3qfDtNqHFkQELjz6kFaDUkgtwG9788MDMIg-WzsAsmucb3OyQ5ZBj4qiW2uZ45OlJtjh8Kj4Im8on_LizBOSufKqCbgv8FVwKyvACHnxiQ" alt="Netsuite" width="400" height="300">
+      <div class="thumbnaile">
+        <br>
+        <img src="https://elmosolutions.com/wp-content/uploads/netsuite-logo-600x1801.png" alt="Netsuite" width="200" height="80">
         <!--p><strong>Netsuite</strong></p-->
         <p>Function and Technical</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="https://lh3.googleusercontent.com/WAwIeboKDgjMUbSbPBib6u2zj7vP_9PZORyygccAQbQ9vX3BU4D73JhUb38v9ARJAgGEZdICDgvkg1fN0la9W8DHCOCep2fPcAM5NQ_Vl-ECtgE2Ira-THSyNNf-KbbiwyOcf_i7Aw" alt="Dynamics AX" width="400" height="300">
+      <div class="thumbnaile">
+        <img src="https://4.bp.blogspot.com/-RBsq_E8_gcY/VyPH0HAuBBI/AAAAAAAAADE/cy_rQruIvT4JEDEMxzgji2hj_n-yWMtvQCKgB/s1600/2352.Dyn-AX12_v_rgb.png" alt="Dynamics AX" width="200" height="100">
         <!--p><strong>Microsoft Dynamics AX</strong></p-->
         <p>Functional</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="https://lh3.googleusercontent.com/rMk0LDiLmjydbAVb_ejywMgcA9_Y6wr3W_0-rTp_9DHC8CmmPE36SIhVepkUK9nNVu9aoL9z8_Qiz7cO3uz0cNBg09SbEQG37Gkop3K8UIWtAD98aqR7gcPGDfJnu-L2nyu_xpkjgw" alt="xtuple" width="400" height="300">
-        <!--p><strong>San Francisco</strong></p-->
+      <div class="thumbnaile">
+      	<br>
+        <img src="https://xtupleuniversity.xtuple.com/sites/default/files/refguide/current/_wh/user/header_footer_files/logo162x50.png" alt="xtuple" width="250" height="80">
+        <br>        
         <p>Functional, Technical,and Development</p>
       </div>
     </div>
@@ -548,22 +595,24 @@ $(document).ready(function () {
 
   <div class="row text-center slideanim">
     <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="https://lh3.googleusercontent.com/Qwk_X5uhqPNeQHTwgq93pS0zGfg7q6nXE63iX7K_RDHcpFkL_8iDar2OCAgSCoImZ-vP5YTUtXxal3DuOLJ1YlFLy8rCP9Gmyte8kS1efrhiGqnIZj9qFGwF-CJoFDzaz26Sj2cr9g" alt="postgresql" width="400" height="300">
+      <div class="thumbnaile">
+        <img src="http://www.southeastlinuxfest.org/wp-content/uploads/2016/04/postgresql-logo.png" alt="postgresql" width="200" height="100">
         <!--p><strong>Paris</strong></p-->
         <p>Administration, Reporting</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="https://lh3.googleusercontent.com/J_nEcDHq5GQY-HphxeMtPidJ07_j4dox41ayncV65tnNuzR-Ui3mbb4EoYhsK3Wq5RduAkAkhBLdZ2Tc4WxdIV1FYcS3mRrDPbnGJjm3WHEmLRIZxdf3g-p8MOXT7OHGRviOiutSwQ" alt="New York" width="400" height="300">
+      <div class="thumbnaile">
+        <img src="https://c.s-microsoft.com/en-us/CMSImages/Windows_rgb_Blue_D.png?version=BB37434B-A839-E749-E855-00086444FEEC" alt="windows" width="250" height="100">
         <!--p><strong>New York</strong></p-->
         <p>Installation and Configuration</p>
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="thumbnail">
-        <img src="https://lh3.googleusercontent.com/LxzC2h7Ey4CkSruN6wnK8xZFyav65E0InG4DZcoDho4rMQdJCQxJL_cqBcIYPWxUEU_rrMlycEnL8YZVX5JeoslYdEv_WZ5OhA5yR4Ez9tQCh2FsDled8QjvG_4fP8zrXQaxU6GqpA" alt="xamarin" width="500" height="300">
+      <div class="thumbnaile">
+      	   <br>
+           <img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Xamarin_logo_and_wordmark.png" alt="xamarin" width="200" height="50">
+        <br><br>
         <!--p><strong>San Francisco</strong></p-->
         <p>Android Development</p>
       </div>
@@ -665,7 +714,7 @@ $(document).ready(function () {
     <div class="col-sm-4 col-xs-12">
       <div class="panel panel-default text-center">
         <div class="panel-heading">
-         <p>&nbsp</p>
+    
          <h1>R Programming</h1>
         </div>
         <div class="panel-body">
@@ -683,7 +732,7 @@ $(document).ready(function () {
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid bg-grey">
+<!--div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
   <div class="row">
     <div class="col-sm-5">
@@ -709,10 +758,10 @@ $(document).ready(function () {
       </div>
     </div>
   </div>
-</div>
+</div-->
 
 <!-- Add Google Maps -->
-<div id="googleMap" style="height:400px;width:100%;"></div>
+<!--div id="googleMap" style="height:400px;width:100%;"></div>
 <script>
 function myMap() {
 var myCenter = new google.maps.LatLng(41.878114, -87.629798);
@@ -732,7 +781,7 @@ Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>
   </a>
-  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com" title="Visit w3schools">www.w3schools.com</a></p>
+  <p>Eduardo Alvela 2018</p>
 </footer>
 
 <script>
