@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- 
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
    <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -273,10 +273,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">ABOUT ME</a></li>
-        <li><a href="#services">WORK EXP</a></li>
-        <li><a href="#portfolio">SKILLS</a></li>
-        <li><a href="#pricing">CERTs</a></li>
+        <li><a href="#aboutme">ABOUT ME</a></li>
+        <li><a href="#workexp">WORK EXP</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#cert">CERTs</a></li>
         <!--li><a href="#contact">CONTACT ME</a></li-->
       </ul>
     </div>
@@ -479,16 +479,17 @@ $(document).ready(function () {
  <br></br>
  <br></br>
 
-<!-- Container (About Section) -->
-<div id="about" class="container-fluid">
+<!-- Container (About Me Section) -->
+<div id="aboutme" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
       <h2>About Me</h2><br>
       <h4>I'm Eduardo Alvela a Netsuite Solutions Consultant from Tech For Good Inc.</h4><br>
       <p>Experienced Functional Consultant with a demonstrated history of working in the information technology and services industry. Skilled in various ERP Solutions such as Netsuite, Microsoft Dynamics AX, and xTuple. Experienced in using and developing with PostgreSQL, mySQL, MS SQL, Visual Studio C# and Xamarin. Strong information technology professional with a Bachelor’s Degree focused in Computer Science from Pamantasan ng Lungsod ng Maynila.</p>
       <br>
-      </div>
       <div id="button" class="btn btn-default btn-lg"><a href="https://www.linkedin.com/in/eduardo-alvela-38988021/">See Linkedin Profile</a></div>
+      </div>
+      
    
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-user logo slideanim"></span>
@@ -519,27 +520,219 @@ $(document).ready(function () {
   </div>
 </div>
 
-<!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
+<!-- Container (Wrk Exp Section) -->
+<script>
+$(document).ready(function(){
+    $("#TFG").click(function(){
+        $("#TFGDET").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#GTI").click(function(){
+        $("#GTIDET").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#OSS").click(function(){
+        $("#OSSDET").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#JSI").click(function(){
+        $("#JSIDET").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#GIC").click(function(){
+        $("#GICDET").modal();
+    });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+    $("#ANSI").click(function(){
+        $("#ANSIDET").modal();
+    });
+});
+</script>
+
+
+<div id="workexp" class="container-fluid text-center">
   <h2>WORK EXPERIENCE</h2>
-  <h4>Below are lists of the entities/individuals I have worked with and am currently working with. Click on each item for more details.</h4>
+  <h4>Below are lists of the companies I have worked with and am currently working with. Click on position title  for job details.</h4>
   <br>
   <div class="row slideanim">
     <div class="col-sm-4">
     	<img src="https://lh3.googleusercontent.com/H0g8ZjZqwHH8PZKt-lkmtqB9eHt_VXz1t9Wa2sOXRaCU1W5FXuXdWUZOaNfIW6CSF-SXalgEHNuxJ1GFuFSFbQMaXj3vLKHLt0X9shAkp4OpRrnU4K0mN6RbHBF1VshXqBu4u50o1Q" alt="tfg" width="200" height="100">     
       <h4>Tech For Good Inc.</h4>
-      <p>Solutions Consultant (Netsuite)</p>
+
+  <!-- Modal Button -->  
+  <button type="button" class="btn btn-default btn-lg" id="TFG">Solutions Consultant</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="TFGDET" role="dialog">
+    <div class="modal-dialog">
+    
+  <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Job Details</h4>
+        </div>
+        <div class="modal-body">
+<p align="left">
+1.	Help clients run their business more than effectively through the implementation of creative and innovative business systems / solutions.
+</p>
+<p align="left">
+2. Analyze, gather and document the client's business requirements.
+</p>
+<p align="left">
+3.	Define the business problem. Identify, validate and document the key business requirements and business process mapping.
+</p>
+<p align="left">
+4.	Coordinate and facilitate requirements walk-through and sign-offs, verifying with business user's representatives in order to create business process maps
+</p>
+<p align="left">
+5.	Participate in system configuration, testing, customization, quality assurance activities
+</p>
+<p align="left">
+6.	Work on configuration changes to field, workflows, roles/permission, page layouts, custom object, custom record types, reports and dashboards
+</p>
+<p align="left">
+7.	Create comprehensive technical requirement documentation and provide user training
+</p>
+<p align="left">
+8.	Leverage out-of-the-box Netsuite solutions, as well as customizing when required using suitescript</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
+  </div>
+  </div>
+
+
+
     <div class="col-sm-4">
       <img src="https://lh3.googleusercontent.com/RXDb2CXIXSZ0E08tgMghx7g-2ZnV0QzuNxCg2JTjRNOglAj-5VBj5nn66hNFN5MXQZNPdwFYXWZamv_CPcHuoagRPA8Sc5hZTNnJt1bviKJfMh4pG1KjfUXyJYlNzJ-vULx01OC64g" alt="gti" width="200" height="80"> 
       <br><br>
       <h4>Genie Technologies Inc.</h4>
-      <p>Implementation Executive (Microsoft Dynamics AX) </p>
+     
+   <button type="button" class="btn btn-default btn-lg" id="GTI">Implementation Executive</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="GTIDET" role="dialog">
+    <div class="modal-dialog">
+    
+  <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Job Details</h4>
+        </div>
+        <div class="modal-body">
+<p align="left">
+1.	Provide Microsoft Dynamics AX implementation and business consulting to our clients in order to successfully implement solution products and services..
+</p>
+<p align="left">
+2.	Maintain the position of the “main point of contact”, working to resolve the inquiries and needs of our customers and acting as a buffer to senior leadership, allowing them to perform more effectively in their own area of responsibility.
+</p>
+<p align="left">
+3.	Work with the leadership team to design professional services packages, service descriptions and pricing in alignment with the company’s vision.
+</p>
+<p align="left">
+4.	Write and maintain repeatable implementation project templates and reporting mechanisms which will be used to manage projects as our volume increases and our customer base grows.
+</p>
+<p align="left">
+5.	Manage internal initiatives and projects as needed.
+</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
+  </div>
+    </div>
+
+
     <div class="col-sm-4">
        <img src="https://lh3.googleusercontent.com/pCZ51Bka7RRX-KJR0TdoaD8SxmdwvXbnmFZfbboOoF8OBzzvHCL65YEy0K3SLFitPukU1JOJ42C3HPlPTG6s35g5YhXgGrjo0f9TOtYOwC7fZlgGun2Q7GJIniqB3IWZwabbx5m_PA=s100-p-k" alt="OSSPH" width="150" height="100">  
       <h4>Open Source Solutions Philippines Corporation</h4>
-      <p>Solutions Consultant (xTuple)</p>
+     
+       <!-- Modal Button -->  
+  <button type="button" class="btn btn-default btn-lg" id="OSS">Solutions Consultant</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="OSSDET" role="dialog">
+    <div class="modal-dialog">
+    
+  <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Job Details</h4>
+        </div>
+        <div class="modal-body">
+<p align="left">
+1.	Provides consulting services for the implementations of software systems. 
+</p>
+<p align="left">
+2.	Business Process Design: Conducted assessment on client’s current processes and assisted in identifying gaps and proposing solutions.
+</p>
+<p align="left">
+3.	System Configuration and Testing: configured system according to client requirements. Created test plans and test scripts for relevant processes. Resolved and properly documented all identified issues, and performed regression testing on critical problem areas prior to turnover to client.
+</p>
+<p align="left">
+4.	Functional / Interface Design: Created functional design documents based on identified gaps in the business process. Coordinated with the development team to ensure accurate and timely completion of programs. Managed resolution and proper documentation of issues relevant to functional designs. 
+</p>
+<p align="left">
+5.	Data Migration: Assisted in data conversion effort.
+</p>
+<p align="left">
+6.	Data Migration and data cleaning.
+</p>
+<p align="left">
+7.	Data Mapping and ensure master data are completed.
+</p>
+<p align="left">
+8.	Communications and Training: Developed training materials and conducted training sessions on relevant modules for client personnel.
+</p>
+9.	Support and Maintenance: Provided on-site and on-call support to users prior to and after go-live. Ensured resolution and proper documentation of issues.
+</p>
+<p align="left">
+10.	Technical: Installed Systems applications and databases and ensured its connectivity.
+</p>
+<p align="left">
+11.	Development: Report creation using OpenRPT and PostgreSQL. Interface and module editing and creation using xTuple scripting, Other development connecting to xTuple using Xamarin and C#.
+</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
     </div>
   </div>
   <br><br>
@@ -547,26 +740,168 @@ $(document).ready(function () {
     <div class="col-sm-4">
        <img src="https://lh3.googleusercontent.com/Nthcnx82BmUECGd-o4Ei3S3-TIxma0q3mvurJHLFEqFvu3bFb7F1uPlDmefypBp22_oKZtcuLYpYWhNQtA6Ld-Ba_dAmlffavkFleMV6ZYDzzvuvPLQ9QH710il_V-CtUBGiz6wG4g=s200-p-k" alt="JSI" width="150" height="100"> 
       <h4>Jupiter Systems Inc.</h4>
-      <p>Implementation Officer (ERIC)</p>
+   <button type="button" class="btn btn-default btn-lg" id="JSI">Implementation Officer</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="JSIDET" role="dialog">
+    <div class="modal-dialog">
+    
+  <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Job Details</h4>
+        </div>
+        <div class="modal-body">
+<p align="left">
+1.	Provide ERP implementation and business consulting to our clients in order to successfully implement solution products and services.
+</p>
+<p align="left">
+2.	Perform the role of Team Lead on existing projects and new projects, taking ownership in the deliverables and driving the projects through to completion, managing resources as needed.
+</p>
+<p align="left">
+3.	Maintain the position of the “main point of contact”, working to resolve the inquiries and needs of our customers and acting as a buffer to senior leadership, allowing them to perform more effectively in their own area of responsibility.
+</p>
+<p align="left">
+4.	Work with the leadership team to design professional services packages, service descriptions and pricing in alignment with the company’s vision.</p>
+<p align="left">
+5.	Write and maintain repeatable implementation project templates and reporting mechanisms which will be used to manage projects as our volume increases and our customer base grows.
+</p>
+<p align="left">
+6.	Manage internal initiatives and projects as needed.
+</p>
+<p align="left">
+7.	Creating customized reports with the use of Microsoft SQL and Infomaker9
+</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
+  </div>
+    </div>
+
+
     <div class="col-sm-4">
       <img src="https://lh3.googleusercontent.com/RpxyDr87mTOd6Hnwy7mjWLW-BIGPNu-MRswtI3C3-Ewj3F9LZ7X2Ufa9m8bgi2F4lIeJlDxTiBmstRcMZ04jvwfvivqsrkhVvRhbruEvaBNEwFCW7UBFw_4hsrzenLq0xlhJgaTllw" alt="GIC" width="200" height="100"> 
       <h4>Global Ideology Corporation</h4>
-      <p>Implementation Officer (EMS)</p>
+   
+   <button type="button" class="btn btn-default btn-lg" id="GIC">Implementation Officer</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="GICDET" role="dialog">
+    <div class="modal-dialog">
+    
+  <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Job Details</h4>
+        </div>
+        <div class="modal-body">
+<p align="left">
+1.	Implementing ERP (Enterprise Management System) software for Distributor Business Clients
+</p>
+<p align="left">
+2.	Software Installation and Configuration (Windows Server 2003, ColdFusion, SQL, ERP System)
+</p>
+<p align="left">
+3.	Hardware Installation (Server Installation, Device Installation)
+</p>
+<p align="left">
+4.	Network Installation (Network Cabling, Network Configuration)
+</p>
+<p align="left">
+5.	Conducts Classroom and Field Training for users who will use the System
+</p>
+<p align="left">
+6.	Provides offsite and onsite support for Software and Hardware related concerns
+</p>
+<p align="left">
+7.	Conducts Quality Assurance Testing for Software Products
+</p>
+<p align="left">
+8.	Creates Manuals and Documentations for our Software Products. 
+</p>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
     </div>
+  </div>
+    </div>
+
+
+
+
     <div class="col-sm-4">
       <img src="https://lh3.googleusercontent.com/RzDA2KFbZqnIJaJGxIFSFLaKcnPGLyD2yGr-rp8e7kjPZ9AXV4m1KsFYkPfrdCDJahyuHsb555VIz0UFnd_H4A4dIFtmyEsyqTAs6U-m_kpKLW1oUprisZlJlhNfCZwpGNyLEWukGg=s200-p-k" alt="GIC" width="180" height="80"> 
       <br><br>
       <h4>ANSI Information Systems</h4>
-      <p>Helpdesk Officer (POS)</p>
+         <button type="button" class="btn btn-default btn-lg" id="ANSI">Implementation Officer</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="ANSIDET" role="dialog">
+    <div class="modal-dialog">
+    
+  <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Job Details</h4>
+        </div>
+        <div class="modal-body">
+<p align="left">
+1.	Provides phone and onsite technical support to clients with the operation of their POS (Point of Sale) systems from hardware and software troubleshooting to data problem concerns
+</p>
+<p align="left">
+2.	Software Configuration (Windows 2000, SQL, POS System)
+</p>
+<p align="left">
+3.	Hardware Installation (Server Installation, POS Installation)
+</p>
+<p align="left">
+4.	Programming using FOXPRO
+</p>
+<p align="left">
+5.	Network Installation (Network Cabling, Network Configuration)
+</p>
+<p align="left">
+6.	Conducts Classroom and Field Training for users who will use the System
+</p>
+<p align="left">
+7.	Provides offsite and onsite support for Software and Hardware related concerns
+</p>
+<p align="left">
+8.	Conducts Quality Assurance Testing for Software Products
+</p>
+<p align="left">
+9.	Creates Documentations for our Software Products. 
+</p>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
     </div>
   </div>
 </div>
 
 
 
-<!-- Container (Portfolio Section) -->
-<div id="portfolio" class="container-fluid text-center bg-grey">
+<!-- Container (Skills Section) -->
+<div id="skills" class="container-fluid text-center bg-grey">
   <h2>SKILLS</h2><br>
  
   <div class="row text-center slideanim">
@@ -674,8 +1009,8 @@ $(document).ready(function () {
   </div>
 </div>
 
-<!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid">
+<!-- Container (Cert Section) -->
+<div id="cert" class="container-fluid">
   <div class="text-center">
     <h2>Training and Certification</h2>
     <!--h4>Choose a payment plan that works for you</h4-->
